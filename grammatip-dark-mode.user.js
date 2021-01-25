@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grammatip DarkMode
 // @namespace    https://kie2204.github.io/grammatip-dark-mode
-// @version      1.1
+// @version      1.1-20210125
 // @description  Undgå dårlige øjne med dette smarte UserScript til Grammatip!
 // @author       kie2204
 // @match        https://www.grammatip.com/*
@@ -61,7 +61,7 @@
 
     // Andre regler
     sheet.insertRule('.student-intro-img img { background-color: white !important; border-radius: 10px; padding: 10px 0 }', sheet.cssRules.length);
-    sheet.insertRule('.student-intro-exercise-box, .student-intro-feedback { background: '+defaultPalette.border+' !important }', sheet.cssRules.length);
+    sheet.insertRule('.student-intro-exercise-box, .student-intro-feedback, .student-exercise-answer { background: '+defaultPalette.border+' !important }', sheet.cssRules.length);
     sheet.insertRule('span *, .notice *  { color: inherit; }', sheet.cssRules.length);
 
 })();
