@@ -4,17 +4,14 @@ body {
     text-align: center;
     background-color: #333;
     color: white;
-    padding-top: 72px;
 }
 header {
     width: 100%;
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 12px;
     background-color: #222;
-    top: 0;
 }
 #header-logo {
     height: 48px;
