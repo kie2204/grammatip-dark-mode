@@ -53,7 +53,7 @@
 
     // Kanter
     sheet.insertRule('.nav > li > a:hover, .student-intro-exercise-box, .student-intro-feedback, input[type="text"], .header.frontpage-hd .gt-select, .header.frontpage-hd .gt-select .options, .gt-select .option { background-color: '+defaultPalette.border+' !important }', sheet.cssRules.length);
-    sheet.insertRule('.nav-tabs, .student-stat .student-table td, .student-table, .nav-tabs > .active > a, .nav-tabs > li > a:hover, .student-intro-exercise-box, .student-intro-feedback, .modal-header, input.dictationTextField, table.radio-table, table.checkbox-table, table.radio-table tr td, table.checkbox-table tr td, select, select * { border-color: '+defaultPalette.border+' !important }', sheet.cssRules.length);
+    sheet.insertRule('.nav-tabs, .student-stat .student-table td, .student-table, .nav-tabs > .active > a, .nav-tabs > li > a:hover, .student-intro-exercise-box, .student-intro-feedback, .modal-header, input.dictationTextField, table.radio-table, table.checkbox-table, table.radio-table tr td, table.checkbox-table tr td, select, select *, .student-exercise-answer { border-color: '+defaultPalette.border+' !important }', sheet.cssRules.length);
     sheet.insertRule('.student-table, .nav-tabs > .active > a, .nav-tabs > li > a:hover { border-bottom-color: transparent !important }', sheet.cssRules.length);
 
     // Normal blå
